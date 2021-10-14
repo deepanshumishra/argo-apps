@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: webserver
-        image: deepanshu1411/alpine-webserver:4
+        image: deepanshu1411/alpine-webserver:10
         ports:
         - containerPort: 80
       imagePullSecrets:
